@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-forms',
@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
   templateUrl: './forms.component.html',
   styleUrl: './forms.component.scss'
 })
-export class FormsComponent {
+export class FormsComponent implements OnInit {
+  results = [];
+  
+  constructor(){
+
+  }
+  ngOnInit(): void {
+    throw new Error('Method not implemented.');
+  }
 
 }

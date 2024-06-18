@@ -22,6 +22,8 @@
     font-size: 24px;
     color: #939393;
     font-weight: 300;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .form-group .radio-wrapper {
@@ -42,11 +44,52 @@
     right: 0px;
 }
 
-.form-group .radio-wrapper:nth-last-child(2) {
+.form-group .radio-wrapper:nth-last-child(3) {
     border-bottom: 1px solid #e5e5e5;
 }
 
 .form-group .radio-wrapper span {
     position: absolute;
     right: 0px;
+}
+
+.form-group .btn-wrapper {
+    display: flex;
+    gap: 12px;
+    align-items:  center;
+    justify-content: center;
+    width: 100%;
+}
+
+.form-group .btn-wrapper .btn {
+    font-size: 18px;
+    border-radius: 4px;
+    color: var(--dark-grey);
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 14px;
+    width: 25%;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group .btn-wrapper .btn-primary {
+    background-color: var(--yellow);
+}
+
+.form-group .btn-wrapper .btn-secondary {
+    background-color: transparent;
+    border: 2px solid var(--light-text);
+}
+
+.form-group .checkbox-wrapper {
+    margin: 32px 0px;
+    color: var(--light-grey);
+    position: relative;
+    width: 100%;
+}
+
+.form-group .checkbox-wrapper span {
+    position: absolute;
+    right: 0;
 }
